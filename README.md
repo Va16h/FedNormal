@@ -9,7 +9,8 @@ _Neural Information Processing Systems (NeurIPS) 2020_.
 
 **TL;DR**: Previous federated optimization algorithms (such as FedAvg and FedProx) converge to stationary points of a mismatched objective function due to heterogeneity in data distribution and computing capacity. In this paper, we develop a general theoretical framework to understand and tackle this objective inconsistency problem.
 
-![illustration](https://github.com/Va16h/FedNormal/assets/72316059/eca9da95-332a-446d-b790-738891a31439)
+
+![illustration](https://github.com/Va16h/FedNormal/assets/72316059/eaf276bd-549b-4a4c-9aac-911fe148566c)
 
 
 **Abstract**: In federated optimization, heterogeneity in the clients' local datasets and computation speeds results in large variations in the number of local updates performed by each client in each communication round. Naive weighted aggregation of such models causes objective inconsistency, that is, the global model converges to a stationary point of a mismatched objective function which can be arbitrarily different from the true objective. This paper provides a general framework to analyze the convergence of federated heterogeneous optimization algorithms. It subsumes previously proposed methods such as FedAvg and FedProx and provides the first principled understanding of the solution bias and the convergence slowdown due to objective inconsistency. Using insights from this analysis, we propose FedNova, a normalized averaging method that eliminates objective inconsistency while preserving fast error convergence.
